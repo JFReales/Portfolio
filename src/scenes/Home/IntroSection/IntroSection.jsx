@@ -50,8 +50,14 @@ const IntroSection = () => {
       <div className={s.introSocial}>
         <h1>Contacto</h1>
         <p>
-          Sientanse libres de
-          <span className={s.purple}> conectar </span> conmigo.
+          Sientanse libres de{' '}
+          <a
+            href="mailto:juanfranciscoreales@gmail.com"
+            className={s.purple}
+          >
+            conectar
+          </a>{' '}
+          conmigo.
         </p>
         <ul className={s.socialLinks}>
           <li className={s.socialLink}>
