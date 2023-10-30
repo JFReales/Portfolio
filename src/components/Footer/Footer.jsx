@@ -1,5 +1,5 @@
 import s from './Footer.module.scss';
-import { AiFillGithub } from 'react-icons/ai';
+import { AiFillGithub, AiOutlineWhatsApp } from 'react-icons/ai';
 import { FaLinkedinIn } from 'react-icons/fa';
 
 const Footer = () => {
@@ -15,6 +15,16 @@ const Footer = () => {
 
         <div className={s.body}>
           <ul className={s.socialIcons}>
+            <li>
+              <a
+                href="https://wa.me/+5492613623216"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Whatsapp"
+              >
+                <AiOutlineWhatsApp />
+              </a>
+            </li>
             <li>
               <a
                 href="https://github.com/JFReales"

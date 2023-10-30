@@ -1,6 +1,6 @@
 import s from './IntroSection.module.scss';
 import avatar from '../../../assets/avatar.svg';
-import { AiFillGithub } from 'react-icons/ai';
+import { AiFillGithub, AiOutlineWhatsApp } from 'react-icons/ai';
 import { FaLinkedinIn } from 'react-icons/fa';
 import Tilt from 'react-parallax-tilt';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
@@ -93,6 +93,17 @@ const IntroSection = () => {
               <FaTelegramPlane />
             </a>
           </li> */}
+          <li className={s.socialLink}>
+            <a
+              href="https://wa.me/+5492613623216"
+              target="_blank"
+              rel="noreferrer"
+              className={s.socialIcon}
+              aria-label="Whatsapp"
+            >
+              <AiOutlineWhatsApp />
+            </a>
+          </li>
           <li className={s.socialLink}>
             <a
               href="https://www.linkedin.com/in/juan-francisco-reales/"
